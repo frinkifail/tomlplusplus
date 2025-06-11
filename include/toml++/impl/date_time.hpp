@@ -334,7 +334,7 @@ TOML_NAMESPACE_START
 		/// \brief	The timezone offset component.
 		///
 		/// \remarks The date_time is said to be 'local' if the offset is empty.
-		optional<toml::time_offset> offset;
+		std::optional<toml::time_offset> offset;
 
 		/// \brief	Default constructor. Does not initialize the members.
 		TOML_NODISCARD_CTOR
